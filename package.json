@@ -4,7 +4,10 @@
   "description": "Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -12,4 +15,5 @@
   "devDependencies": {
     "vite": "^6.3.5"
   }
+
 }
